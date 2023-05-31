@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aytor-e-commerce-(1) important</title>
+
+
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="./css/slick.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+</head>
+<body>
+    
+    <header>
+        <nav class="navbar navbar-expand-lg myNavBarLg d-none d-lg-block">
+
+            <div class="container">
+              <a class="navbar-brand" href="#">
+                <img src="./css/image/Logo.png" alt="">
+              </a>
+    
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+    
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <ul class="navbar-nav m-auto mb-2 mb-lg-0 menu">
+    
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+    
+                  
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+    
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Shop
+                                <span><i class="fa-solid fa-angle-down"></i></span>
+                            </a>
+                            <ul>
+                                <li><a href="#">Apparel and accessories</a></li>
+                                <li><a href="#">Consumer electronics</a></li>
+                                <li><a href="#">Books, movies, and games </a></li>
+                                <li><a href="#">Health and beauty</a></li>
+                                <li><a href="#">Food and beverage</a></li>
+                                <li><a href="#">Auto and parts</a></li>
+                                <li><a href="#">Furniture and decor</a></li>
+
+                            </ul>
+                        </li>
+                        
+                        <li class="nav-item">
+                                <a class="nav-link" href="#">Pages
+                                    <span><i class="fa-solid fa-angle-down"></i></span>
+                                </a>
+                                    <ul>
+                                        <li><a href="#">Home Page Design</a></li>
+                                        <li><a href="#">About Page</a></li>
+                                        <li><a href="#">Backend Admin </a></li>
+                                        <li><a href="#">Internal Web Pages</a></li>
+                                        <li><a href="#">Website Footer</a></li>
+        
+                                    </ul>
+                        </li>
+    
+                        
+    
+                        <li class="nav-item">
+                                <a class="nav-link " href="#">Features
+                                    <span><i class="fa-solid fa-angle-down"></i></span>
+                                </a>
+
+                                <ul>
+                                    <li><a href="#">what makes a great website</a></li>
+                                    <li><a href="#">Well Designed and Functional</a></li>
+                                    <li><a href="#">Easy to Use </a></li>
+                                    <li><a href="#">Optimized for Mobile</a></li>
+                                    <li><a href="#">Fresh, Quality Content</a></li>
+                                    <li><a href="#">Readily accessible contact and location</a></li>
+                                    <li><a href="#">Clear calls to action</a></li>
+                                    <li><a href="#">Optimized for Search and the Social Web</a></li>
+    
+                                </ul>
+
+
+
+                        </li>
+    
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Blogs</a>
+                        </li>
+    
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+    
+    
+                        <!-- <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Dropdown
+                            </a>
+                                <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                        </li> -->
+    
+                        <!-- <li class="nav-item">
+                            <a class="nav-link disabled">Disabled</a>
+                        </li> -->
+    
+                </ul>
+    
+    
+                <div class="iconGroup">
+    
+                    <ul>
+                        <li>
+                            <i>
+                                <a href="#"><i class="bi bi-search"></i></a>
+                            </i>
+                        </li>
+    
+                        <li>
+                            <i>
+                                <a href="#"><i class="bi bi-person-fill"></i></a>
+                            </i>
+                            
+                        </li>
+    
+                        <li>
+                            <i>
+                                <a href="#"><i class="bi bi-heart"></i></a>
+                            </i>
+                        </li>
+    
+                        <li>
+                            <i>
+                                <a href="#"><i class="bi bi-handbag"></i>
+                                    <span>0</span>
+                                </a>
+                            </i>
+                        </li>
+                        
+                    </ul>
+                </div>
+                
+                    <!-- <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form> -->
+              </div>
+
+            </div>
+        </nav>
+
+
+    <!-- sm menu here starts -->
+        <nav class="myNavBerSm d-lg-none">
+            <div class="container">
+                <div class="row align-items-cener">
+                    <div class="menu col-3">
+                            
+                            <a class="hamberMenu" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"        aria-controls="offcanvasExample">
+                            <i class="fa-solid fa-bars"></i>
+                            </a>
+
+                          
+                          
+                          <div class="offcanvas offcanvas-start offBar" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                            
+                            <div class="offcanvas-header ">
+                              <h5 class="offcanvas-title" id="offcanvasExampleLabel"><img src="./css/image/Logo.png" alt=""></h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+
+                            <div class="offcanvas-body barBody">
+
+                              <!-- <div>
+                                Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.
+                              </div> -->
+
+                              
+
+                                <!-- <div class="dropdown mt-3">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                                  Dropdown button
+                                </button>
+                                
+                                <ul class="dropdown-menu">
+                                  <li><a class="dropdown-item" href="#">Action</a></li>
+                                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                              </div> -->
+
+                                    <ul class="navbar-nav m-auto mb-2 mb-lg-0 menu menu_dropdwon">
+            
+                                        <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                        </li>
+                        
+                                        
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Link</a>
+                                            </li>
+                        
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Shop
+                                                    <i class="fa-solid fa-angle-down"></i>
+                                                </a>
+                                                <ul>
+                                                    <li><a href="#">Apparel and accessories</a></li>
+                                                    <li><a href="#">Consumer electronics</a></li>
+                                                    <li><a href="#">Books, movies, and games </a></li>
+                                                    <li><a href="#">Health and beauty</a></li>
+                                                    <li><a href="#">Food and beverage</a></li>
+                                                    <li><a href="#">Auto and parts</a></li>
+                                                    <li><a href="#">Furniture and decor</a></li>
+                    
+                                                </ul>
+                                            </li>
+
+
+                                            
+
+
+                                            
+                                            <li class="nav-item">
+                                                    <a class="nav-link" href="#">Pages
+                                                        <i class="fa-solid fa-angle-down"></i>
+                                                    </a>
+                                                        <ul>
+                                                            <li><a href="#">Home Page Design</a></li>
+                                                            <li><a href="#">About Page</a></li>
+                                                            <li><a href="#">Backend Admin </a></li>
+                                                            <li><a href="#">Internal Web Pages</a></li>
+                                                            <li><a href="#">Website Footer</a></li>
+                            
+                                                        </ul>
+                                            </li>
+                        
+                                            
+                        
+                                            <li class="nav-item">
+                                                    <a class="nav-link " href="#">Features
+                                                        <i class="fa-solid fa-angle-down"></i>
+                                                    </a>
+                    
+                                                    <ul>
+                                                        <li><a href="#">what makes a great website</a></li>
+                                                        <li><a href="#">Well Designed and Functional</a></li>
+                                                        <li><a href="#">Easy to Use </a></li>
+                                                        <li><a href="#">Optimized for Mobile</a></li>
+                                                        <li><a href="#">Fresh, Quality Content</a></li>
+                                                        <li><a href="#">Readily accessible contact and location</a></li>
+                                                        <li><a href="#">Clear calls to action</a></li>
+                                                        <li><a href="#">Optimized for Search and the Social Web</a></li>
+                        
+                                                    </ul>
+                    
+                    
+                                            </li>
+                        
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Blogs</a>
+                                            </li>
+                        
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Contact</a>
+                                            </li>
+                        
+                        
+                                            <!-- <li class="nav-item dropdown">
+                                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                Dropdown
+                                                </a>
+                                                    <ul class="dropdown-menu">
+                                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                                    <li><hr class="dropdown-divider"></li>
+                                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                                    </ul>
+                                            </li> -->
+                        
+                                            <!-- <li class="nav-item">
+                                                <a class="nav-link disabled">Disabled</a>
+                                            </li> -->
+                        
+                                    </ul>
+                           
+                            </div>
+                          </div>
+
+                    </div>
+
+                    <div class="logo col-6 text-center">
+                        <a href="#">
+                            <img src="./css/image/Logo.png" alt="">
+                        </a>
+                    </div>
+
+                    <div class="iconGroup col-3 ">
+    
+                        <ul>
+                            <li>
+                                <i>
+                                    <a href="#"><i class="bi bi-search"></i></a>
+                                </i>
+                            </li>
+        
+                            
+        
+                            
+        
+                            <li class="handbag">
+                                <i>
+                                    <a href="#"><i class="bi bi-handbag"></i>
+                                        <span>0</span>
+                                    </a>
+                                </i>
+                            </li>
+                            
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </nav>
+    <!-- sm menu here ends -->
+    
+    </header>
+
+
+
+    <!-- banner starts here -->
+    <section id="banner">
+        <div class="banner_slider" style="background-image: url(./css/image/banner.png);">
+            <div class="container h-100">
+
+                <div class="row h-100 align-items-center">
+                    <div class="col-lg-5">
+                        <h4>Mega Sale</h4>
+                        <h1>Up To 35% Off</h1>
+                        <p>Objectively incubate enabled innovation through leveraged mindshare. Competently.</p>
+                        <a href="#">Shop Now</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="banner_slider" style="background-image: url(./css/image/banner-1.webp);">
+            <div class="container h-100">
+
+                <div class="row h-100 align-items-center">
+                    <div class="col-lg-5">
+                        <h4>Mega Sale</h4>
+                        <h1>Up To 35% Off</h1>
+                        <p>Objectively incubate enabled innovation through leveraged mindshare. Competently.</p>
+                        <a href="#">Shop Now</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="banner_slider" style="background-image: url(./css/image/banner-2.webp);">
+            <div class="container h-100">
+
+                <div class="row h-100 align-items-center">
+                    <div class="col-lg-5">
+                        <h4>Mega Sale</h4>
+                        <h1>Up To 35% Off</h1>
+                        <p>Objectively incubate enabled innovation through leveraged mindshare. Competently.</p>
+                        <a href="#">Shop Now</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="banner_slider" style="background-image: url(./css/image/banner-3.webp);">
+            <div class="container h-100">
+
+                <div class="row h-100 align-items-center">
+                    <div class="col-lg-5">
+                        <h4>Mega Sale</h4>
+                        <h1>Up To 35% Off</h1>
+                        <p>Objectively incubate enabled innovation through leveraged mindshare. Competently.</p>
+                        <a href="#">Shop Now</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="banner_slider" style="background-image: url(./css/image/banner-4.jpeg);">
+            <div class="container h-100">
+
+                <div class="row h-100 align-items-center">
+                    <div class="col-lg-5">
+                        <h4>Mega Sale</h4>
+                        <h1>Up To 35% Off</h1>
+                        <p>Objectively incubate enabled innovation through leveraged mindshare. Competently.</p>
+                        <a href="#">Shop Now</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <!-- banner ends here -->
+
+
+
+        
+    <!-- BEAUTY IMAGE STARTS HERE -->
+        <section id="beauty">
+                <div class="container h-100">
+
+                    <div class="row h-100 align-items-center ">
+
+                        <div class="item_prodcut_two_image col-5">
+
+                                <div class="one_item_product">
+                                        <img src="./css/image/beauty item image-3.webp" alt="">
+
+                                        <div class="overplay">
+
+                                                <h2>Beauty Cream</h2>
+                                                <a href="#">Shop Now <i class="fa-solid fa-arrow-right"></i></a>
+                                           
+                                        </div>
+                                </div>
+
+                                <div class="two_item_product">
+                                    <img src="./css/image/beauty item image-2.png" alt="">
+
+                                        <div class="overplay">
+                                                <h2>Beauty Cream</h2>
+                                                <a href="#">Shop Now <i class="fa-solid fa-arrow-right"></i></a>
+                                        </div>
+                                </div>
+
+                                
+                                
+                        </div>
+
+                        <div class="item_prodcut_one_image col-7">
+
+                            <div class="three_item_product">
+                                    <img src="./css/image/beauty item image-1.png" alt="">
+
+                                    <div class="overplay">
+                                        <h2>Beauty Cream</h2>
+                                        <a href="#">Shop Now <i class="fa-solid fa-arrow-right"></i></a>
+                                    </div>
+                            </div>
+
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+        </section>
+    <!-- BEAUTY IMAGE ENDS HERE -->
+
+
+
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    
+    <script src="./js/slick.min.js"></script>
+    <script src="./js/app.js"></script>
+</body>
+</html>
